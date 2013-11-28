@@ -29,7 +29,7 @@ footer, header, hgroup, menu, nav, section {
 	display: inline;
 }
 body {
-	line-height: 1;
+	line-height:1;
 }
 ol, ul {
 	list-style: none;
@@ -51,7 +51,7 @@ table {
 /*the body positioning*/
 body {
 	padding:5px;
-	display:inline-block;
+	
 }
 
 /*This is the coding for my Happy Week*/
