@@ -26,10 +26,10 @@ time, mark, audio, video {
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-	display: inline;
+	display: block;
 }
 body {
-	line-height:1;
+	line-height: 1;
 }
 ol, ul {
 	list-style: none;
@@ -75,6 +75,7 @@ h4 {
 	font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
 	
 	
+	
 }
 
 /*This is the ul display coding*/
@@ -109,24 +110,31 @@ span {
 	margin-top:40px;
 	display:inline-block;
 	color:#232323;
+	
 }
 
-/*This sizes my images*/
 img {
-	font-size:18px;
 	display:block;
+	margin:12px;
+	width:105px;
+	margin-right:auto;
+	margin-left:auto;
 }
+
 
 #wrapper {
-	width:800px;
-	margin:0 auto;
+	
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;	
+	clear:both;
 }
 
 /*This centers my paragraph*/
 .section {
-	margin-left:200px;
 	display:inline-block;
 	padding: 5px 5px 5px 5px;
+	font-family: "CrimsonSemibold", "Times New Roman", Georgia, serif;
 }
 
 /*This sizes my paragraph*/
@@ -155,8 +163,9 @@ h3 {
 /*This sizes my paragraph*/
 h5 {	
 	font-size:20px;
-	margin-top:30px;
+	margin-top:20px;
 	margin-left:35px;
+	font-family: "CrimsonSemibold", "Times New Roman", Georgia, serif;
 }
 
 /*This sizes my wording in my image boxes*/
@@ -164,15 +173,16 @@ h6 {
 	text-align:center;
 	font-size:14px;
 	font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+	
 }
 
 /*This is placing my three boxes*/
 #threeproducts {
-	display:inline;
 	text-decoration:none;
 	text-align:center;
-	padding: 0px 35px 35px 35px;
+	padding: 0;
 	list-style-type:none;
+	width:900px;
 	
 }
 
@@ -180,16 +190,13 @@ h6 {
 #threeproducts a {
 	display:block;
 	font-size:21px;
-	width:205px;
+	width:200px;
 	margin-left: auto;
-	margin-right: auto;
-	
-
-	
+	margin-right: auto;	
 }
 
 /*This decorates, sizes my boxes for three products*/
-.boxes {
+.BasecampBoxes {
 	display:inline-block;
 	padding:0;
 	list-style-type:none;
@@ -202,10 +209,61 @@ h6 {
 	border-radius:5px;
 	box-shadow: 5px 5px 5px #F8F8F8;
 	background:#EFEFEF;
+	text-align:center;
+}
+
+.HighriseBoxes {
+	display:inline-block;
+	padding:0;
+	list-style-type:none;
+	margin-left:235px;
+	margin-top:25px;
+	border: 1px solid #E8E8E8;
+	height:240px;
+	width:190px;
+	margin-right:-165px;
+	border-radius:5px;
+	box-shadow: 5px 5px 5px #F8F8F8;
+	background:#EFEFEF;
+	text-align:center;
+}
+
+.CampfireBoxes {
+	display:inline-block;
+	padding:0;
+	list-style-type:none;
+	margin-left:230px;
+	border: 1px solid #E8E8E8;
+	height:240px;
+	width:190px;
+	margin-right:-150px;
+	border-radius:5px;
+	box-shadow: 5px 5px 5px #F8F8F8;
+	background:#EFEFEF;
+	text-align:center;
+	
 }
 
 /*This places my images in my boxes*/
-.boxes img {
+.BasecampBoxes img {
+	display:block;
+	margin:12px;
+	width:105px;
+	margin-right:auto;
+	margin-left:auto;
+	
+}
+
+.HighriseBoxes img {
+	display:block;
+	margin:12px;
+	width:105px;
+	margin-right:auto;
+	margin-left:auto;
+	
+}
+
+.Campfireboxes img {
 	display:block;
 	margin:12px;
 	width:105px;
@@ -230,4 +288,5 @@ p {
 	margin-left:95.5px;
 	word-spacing:25px;
 	color:#A6A6A6;
+	text-align:center;
 }
