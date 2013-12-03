@@ -110,15 +110,13 @@ span {
 	margin-top:40px;
 	display:inline-block;
 	color:#232323;
+	font-size:18px;
 	
 }
 
 img {
 	display:block;
-	margin:12px;
-	width:105px;
-	margin-right:auto;
-	margin-left:auto;
+	font-size:18px;
 }
 
 
