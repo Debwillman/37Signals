@@ -160,7 +160,7 @@ h3 {
 	font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
 }
 
-h4 {
+p {
 	display:none;
 }
 
@@ -222,7 +222,6 @@ h6 {
 	box-shadow: 5px 5px 5px #F8F8F8;
 	background:#EFEFEF;
 	margin:20px;	
-	border: solid 1px red;
 	
 	
 }
@@ -302,7 +301,7 @@ a {
 }
 
 /*This is my footer*/
-p {
+#footer {
 	margin-top:10px;
 	margin-bottom:0;
 	font-size:20px;
